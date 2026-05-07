@@ -65,8 +65,38 @@ jobs:
         #        echo "AWS_SECRET_ACCESS_KEY=..." >> $GITHUB_ENV
         # Azure: echo "AZURE_STORAGE_CONNECTION_STRING=..." >> $GITHUB_ENV
         run: |
-          printf '%s' "${{ secrets.CLOUD_CREDENTIALS }}" > /tmp/sa-key.json
+          cat <<'EOF' > /tmp/sa-key.json
+          ${{ secrets.CLOUD_CREDENTIALS }}
+          EOF
           echo "GOOGLE_APPLICATION_CREDENTIALS=/tmp/sa-key.json" >> $GITHUB_ENV
+
+      - name: Validate GCS credentials
+        run: |
+          python - <<'EOF'
+          import json
+          import os
+          from google.cloud import storage
+
+          path = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS")
+          if not path or not os.path.exists(path):
+              raise SystemExit("Missing GOOGLE_APPLICATION_CREDENTIALS file")
+
+          with open(path, "r", encoding="utf-8") as f:
+              data = json.load(f)
+
+          # Safe identifiers for debugging (no secrets)
+          print("client_email:", data.get("client_email"))
+          print("project_id:", data.get("project_id"))
+
+          bucket_name = os.environ["CLOUD_BUCKET"]
+          client = storage.Client()
+          bucket = client.bucket(bucket_name)
+          if not bucket.exists():
+              raise SystemExit(f"Bucket not found or no access: {bucket_name}")
+          print("GCS access OK")
+          EOF
+        env:
+          CLOUD_BUCKET: ${{ secrets.CLOUD_BUCKET }}
 
       - name: Pull data with DVC
         # TODO 3: Pull cac file du lieu can thiet tu cloud storage bang lenh dvc pull.
