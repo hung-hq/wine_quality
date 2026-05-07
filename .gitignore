@@ -8,4 +8,5 @@ data/train_phase2.csv
 sa-key.json
 .env
 .venv/
+.venv310/
 __pycache__/
