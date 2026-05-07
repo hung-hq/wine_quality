@@ -98,6 +98,9 @@ jobs:
         env:
           CLOUD_BUCKET: ${{ secrets.CLOUD_BUCKET }}
 
+      - name: Configure DVC credentials path
+        run: dvc remote modify myremote credentialpath /tmp/sa-key.json
+
       - name: Pull data with DVC
         # TODO 3: Pull cac file du lieu can thiet tu cloud storage bang lenh dvc pull.
         #         Chi pull train_phase1.csv va eval.csv (khong can train_phase2.csv).
