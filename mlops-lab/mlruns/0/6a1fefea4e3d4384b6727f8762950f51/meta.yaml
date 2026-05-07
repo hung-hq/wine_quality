@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Work/AI_in_Action/wine_quality/mlruns/0/6a1fefea4e3d4384b6727f8762950f51/artifacts
+end_time: 1778129449323
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6a1fefea4e3d4384b6727f8762950f51
+run_name: gentle-snake-330
+run_uuid: 6a1fefea4e3d4384b6727f8762950f51
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778129443828
+status: 3
+tags: []
+user_id: HQH

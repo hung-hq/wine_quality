@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Work/AI_in_Action/wine_quality/mlruns/0/5c3d47cd75344994a9b166495ad92280/artifacts
+end_time: 1778129277218
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5c3d47cd75344994a9b166495ad92280
+run_name: receptive-mink-242
+run_uuid: 5c3d47cd75344994a9b166495ad92280
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778129271478
+status: 3
+tags: []
+user_id: HQH

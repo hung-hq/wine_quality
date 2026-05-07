@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Work/AI_in_Action/wine_quality/mlruns/0/c387538734ca49f682df258df1321277/artifacts
+end_time: 1778129100483
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c387538734ca49f682df258df1321277
+run_name: omniscient-colt-931
+run_uuid: c387538734ca49f682df258df1321277
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778129093952
+status: 3
+tags: []
+user_id: HQH

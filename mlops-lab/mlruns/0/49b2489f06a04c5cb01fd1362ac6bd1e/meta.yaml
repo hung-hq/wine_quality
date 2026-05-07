@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Work/AI_in_Action/wine_quality/mlruns/0/49b2489f06a04c5cb01fd1362ac6bd1e/artifacts
+end_time: 1778129064770
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 49b2489f06a04c5cb01fd1362ac6bd1e
+run_name: skillful-donkey-174
+run_uuid: 49b2489f06a04c5cb01fd1362ac6bd1e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778129060433
+status: 3
+tags: []
+user_id: HQH

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Work/AI_in_Action/wine_quality/mlops-lab/mlruns/808051554672426883/96e674e79a4a401293ff3424610a1785/artifacts
+end_time: 1778129725154
+entry_point_name: ''
+experiment_id: '808051554672426883'
+lifecycle_stage: active
+run_id: 96e674e79a4a401293ff3424610a1785
+run_name: industrious-gnu-372
+run_uuid: 96e674e79a4a401293ff3424610a1785
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778129720288
+status: 3
+tags: []
+user_id: HQH

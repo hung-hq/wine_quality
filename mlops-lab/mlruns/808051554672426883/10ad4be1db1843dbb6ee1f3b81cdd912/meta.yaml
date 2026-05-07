@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Work/AI_in_Action/wine_quality/mlops-lab/mlruns/808051554672426883/10ad4be1db1843dbb6ee1f3b81cdd912/artifacts
+end_time: 1778130353883
+entry_point_name: ''
+experiment_id: '808051554672426883'
+lifecycle_stage: active
+run_id: 10ad4be1db1843dbb6ee1f3b81cdd912
+run_name: grandiose-yak-914
+run_uuid: 10ad4be1db1843dbb6ee1f3b81cdd912
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778130346424
+status: 3
+tags: []
+user_id: HQH

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Work/AI_in_Action/wine_quality/mlops-lab/mlruns/808051554672426883/e919ebb6a3fe42cea9de3858a41cb09f/artifacts
+end_time: 1778129652357
+entry_point_name: ''
+experiment_id: '808051554672426883'
+lifecycle_stage: active
+run_id: e919ebb6a3fe42cea9de3858a41cb09f
+run_name: entertaining-cub-104
+run_uuid: e919ebb6a3fe42cea9de3858a41cb09f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778129648301
+status: 3
+tags: []
+user_id: HQH

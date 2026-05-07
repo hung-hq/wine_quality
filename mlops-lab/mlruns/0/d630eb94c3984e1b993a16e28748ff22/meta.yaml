@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Work/AI_in_Action/wine_quality/mlruns/0/d630eb94c3984e1b993a16e28748ff22/artifacts
+end_time: 1778129484758
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d630eb94c3984e1b993a16e28748ff22
+run_name: capable-kit-538
+run_uuid: d630eb94c3984e1b993a16e28748ff22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778129479291
+status: 3
+tags: []
+user_id: HQH

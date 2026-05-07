@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Work/AI_in_Action/wine_quality/mlops-lab/mlruns/808051554672426883/3180d758296f4a1dbcb210d5728e0eaa/artifacts
+end_time: 1778129686239
+entry_point_name: ''
+experiment_id: '808051554672426883'
+lifecycle_stage: active
+run_id: 3180d758296f4a1dbcb210d5728e0eaa
+run_name: casual-wolf-179
+run_uuid: 3180d758296f4a1dbcb210d5728e0eaa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778129682100
+status: 3
+tags: []
+user_id: HQH

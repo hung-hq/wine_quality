@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Work/AI_in_Action/wine_quality/mlruns/0/717d4c8d59fb4cccb07fe122d1c2770f/artifacts
+end_time: 1778129499085
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 717d4c8d59fb4cccb07fe122d1c2770f
+run_name: intrigued-shoat-919
+run_uuid: 717d4c8d59fb4cccb07fe122d1c2770f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778129495279
+status: 3
+tags: []
+user_id: HQH
